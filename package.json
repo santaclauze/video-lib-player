@@ -53,8 +53,6 @@
     "bootstrap-styled",
     "styled-components",
     "react",
-    "redux",
-    "react-redux",
     "react-intl",
     "yeutech.vn",
     "video",
@@ -193,6 +191,16 @@
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
+    "@bootstrap-styled/provider": "^1.4.2",
+    "@bootstrap-styled/v4": "^3.0.15",
+    "@bootstrap-styled/css-mixins": "^2.0.6",
+    "bootstrap-styled": "^2.4.13",
+    "@bootstrap-styled/motion": "^2.0.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-brands-svg-icons": "^5.8.1",
+    "@fortawesome/free-regular-svg-icons": "^5.8.1",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "@rollup-umd/documentation": "^2.0.5",
     "@rollup-umd/intl": "^1.2.1",
     "@rollup-umd/ncu": "^1.0.9",
@@ -243,22 +251,18 @@
     "rollup": "^1.12.3",
     "semantic-release": "^15.13.12",
     "toctoc": "^0.3.2",
-    "webpack": "^4.32.0"
+    "webpack": "^4.32.0",
+    "react-slick": "^0.24.0",
+    "slick-carousel": "^1.8.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.4.4",
-    "@bootstrap-styled/provider": "^1.4.2",
-    "@bootstrap-styled/redux": "^1.1.2",
-    "@bootstrap-styled/v4": "^3.0.15",
-    "bootstrap-styled": "^2.4.13",
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-intl": "^2.9.0",
-    "react-redux": "^7.0.3",
     "react-transition-group": "^4.0.1",
-    "redux": "^4.0.1",
     "reselect": "^4.0.0",
     "styled-components": "^4.2.0"
   },
@@ -377,7 +381,7 @@
       "en"
     ]
   },
-  "declinationId": "bs-redux-intl",
+  "declinationId": "bs-intl",
   "contributors": [
     "Dimitri Kopriwa <dimitri.kopriwa@yeutech.vn> (https://github.com/kopax)"
   ],
